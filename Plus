@@ -210,6 +210,8 @@ if [[ "$resposta" = '1' ]]; then
     echo ""
     echo -e "      \033[1;33mCONCLUINDO FUNÇÕES E DEFINIÇÕES! \033[0m"
     echo ""
+    echo -e "      \033[1;33mAGUARDE MAIS UM POUCO... \033[0m"
+    echo ""
     fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
     clear
     echo ""
