@@ -21,3 +21,4 @@ clear
 } > /dev/null
 service ssh restart > /dev/null
 clear; echo -e "\033[1;32mA SEGUIR DEFINA A SENHA ROOT\033[0m"; sleep 2s; passwd && rm senharoot.sh
+echo -e "    \033[1;33mA SENHA NÃO IRÁ MOSTRAR, MÁS É DIGITADO OCULTO!\033[0m"
